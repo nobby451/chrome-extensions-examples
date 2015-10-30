@@ -2,10 +2,13 @@
   "name": "chrome-extensions-examples",
   "version": "0.0.0",
   "scripts": {
-    "postinstall": "tsd install chrome gulp"
+    "postinstall": "tsd install chrome gulp",
+    "start": "gulp"
   },
   "devDependencies": {
     "gulp": "",
-    "tsd": ""
+    "ts-node": "",
+    "tsd": "",
+    "typescript-register": ""
   }
 }
